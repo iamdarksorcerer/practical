@@ -21,9 +21,10 @@
     * [tree](#tree)
     * [htop](#htop)
     * [fzf](#fzf)  
-* Shortcuts & tricks
+* CLI shortcuts & tricks
     * [Create directory and navigate](#create-directory-and-navigate)
     * [Navigate to previous directory](#navigate-to-previous-directory)
+    * [Run last command with `sudo`](#run-last-command-with-sudo)
 
 ## Environment
 ## Homebrew
@@ -164,7 +165,7 @@ Installation:
 
 <sup>[&uarr;](#table-of-contents)</sup>
 
-## Shortcuts & tricks
+## CLI shortcuts & tricks
 
 ### Create directory and navigate
 ```$ mkdir <name> && cd $_```
@@ -173,5 +174,11 @@ Installation:
 
 ### Navigate to previous directory 
 ```$  cd -```  
+
+<sup>[&uarr;](#table-of-contents)</sup>
+
+
+### Run last command with sudo
+```$  sudo !!```  
 
 <sup>[&uarr;](#table-of-contents)</sup>
