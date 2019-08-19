@@ -7,7 +7,7 @@
 * Terminal
     * [ZSH](#zsh)
     * [Oh-My-Zsh](#oh-my-zsh)
-* Editors
+* Text Editors
     * [Vim](#vim)
     * [Visual Studio Code](#visual-studio-code)
 * Programming
@@ -59,7 +59,7 @@ Installation:
 ```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
-## Editors
+## Text Editors
 ### vim
 > "Vim is a highly configurable text editor for efficiently creating and changing any kind of text. It is included as "vi" with most UNIX systems and with Apple OS X." - *[vim](https://www.vim.org/)*
 
