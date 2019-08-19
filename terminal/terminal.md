@@ -1,11 +1,13 @@
 # Terminal
 
 * homebrew:  
-"Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux." - [brew](https://brew.sh/)  
-```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+    > "Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux" - [brew](https://brew.sh/)  
+
+    ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 * home brew cask:  
-"Cask is a project management tool for Emacs Lisp to automate the package development cycle; development, dependencies, testing, building, packaging and more." - [cask](https://cask.readthedocs.io)  
-```$ brew tap caskroom/cask```  
+    > "Cask is a project management tool for Emacs Lisp to automate the package development cycle; development, dependencies, testing, building, packaging and more" - [cask](https://cask.readthedocs.io)  
+
+    ```$ brew tap caskroom/cask```  
 * zsh: 
 "Zsh is a shell designed for interactive use, although it is also a powerful scripting language" - [zsh](http://www.zsh.org)
     * Install:  
