@@ -43,7 +43,7 @@ Installation:
 ## Terminal
 ### ZSH
 > "Zsh is a shell designed for interactive use, although it is also a powerful scripting language" - *[zsh](http://www.zsh.org)*
-* Installation: 
+* Installation:  
 ```$ brew install zsh```
 * Set as default shell:  
 ```$ sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh```
