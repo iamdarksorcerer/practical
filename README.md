@@ -17,7 +17,7 @@
     * [NVM](#nvm)
     * [NodeJS](#nodejs)
     * [Docker](#docker)
-* Commands
+* CLI Commands
     * [tree](#tree)
     * [htop](#htop)
     * [fzf](#fzf)  
@@ -25,6 +25,8 @@
     * [Create directory and navigate](#create-directory-and-navigate)
     * [Navigate to previous directory](#navigate-to-previous-directory)
     * [Run last command with `sudo`](#run-last-command-with-sudo)
+
+
 ## Environment
 ## Homebrew
 > "Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux" - *[brew](https://brew.sh/)*  
@@ -39,6 +41,7 @@ Installation:
 Installation:  
 ```$ brew tap caskroom/cask```  
 <sup>[&uarr;](#table-of-contents)</sup>
+
 
 ## Terminal
 ### ZSH
@@ -58,6 +61,7 @@ Installation:
 Installation:  
 ```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```  
 <sup>[&uarr;](#table-of-contents)</sup>
+
 
 ## Text Editors
 ### vim
@@ -80,6 +84,7 @@ Installation:
 Installation:  
 ```$ brew cask install sublime-text```  
 <sup>[&uarr;](#table-of-contents)</sup>
+
 
 ## Programming
 ### Git
@@ -128,7 +133,8 @@ Installation:
 ```$ brew cask install docker```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
-## Commands
+
+## CLI Commands
 ### tree
 > "A recursive directory listing command or program that produces a depth-indented listing of files. It is available in Unix and Unix-like systems" - *[tree @ wiki](https://en.wikipedia.org/wiki/Tree_(command))*
 
@@ -149,6 +155,7 @@ Installation:
 Installation:  
 ```$ brew install fzf```   
 <sup>[&uarr;](#table-of-contents)</sup>
+
 
 ## CLI shortcuts & tricks
 ### Create directory and navigate
