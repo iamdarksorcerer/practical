@@ -25,14 +25,12 @@
     * [Create directory and navigate](#create-directory-and-navigate)
     * [Navigate to previous directory](#navigate-to-previous-directory)
     * [Run last command with `sudo`](#run-last-command-with-sudo)
-
 ## Environment
 ## Homebrew
 > "Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux" - *[brew](https://brew.sh/)*  
 
 Installation:  
-```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```  
-
+```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```    
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## Homebrew Cask
@@ -40,7 +38,6 @@ Installation:
 
 Installation:  
 ```$ brew tap caskroom/cask```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## Terminal
@@ -50,7 +47,7 @@ Installation:
 ```$ brew install zsh```
 * Set as default shell:  
 ```$ sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh```
-* Plugins:  
+* Plugins `(~/.zshrc)`:  
 ```plugins=(git zsh-syntax-highlighting)```  
 
 <sup>[&uarr;](#table-of-contents)</sup>
@@ -60,7 +57,6 @@ Installation:
 
 Installation:  
 ```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## Editors
@@ -69,7 +65,6 @@ Installation:
 
 Installation:  
 ```$ brew install vim```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### Visual Studio Code
@@ -77,7 +72,6 @@ Installation:
 
 Installation:  
 ```$ brew cask install visual-studio-code```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### Sublime Text
@@ -85,7 +79,6 @@ Installation:
 
 Installation:  
 ```$ brew cask install sublime-text```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## Programming
@@ -94,7 +87,6 @@ Installation:
 
 Installation:  
 ```$ brew install git```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### Python
@@ -113,7 +105,6 @@ Installation:
 
 Installation:  
 ```$ brew install go```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### NVM
@@ -121,7 +112,6 @@ Installation:
 
 Installation:  
 ```$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### NodeJS
@@ -129,7 +119,6 @@ Installation:
 
 Installation:  
 ```$ nvm install node```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### Docker
@@ -137,7 +126,6 @@ Installation:
 
 Installation:  
 ```$ brew cask install docker```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## Commands
@@ -146,7 +134,6 @@ Installation:
 
 Installation:  
 ```$ brew install tree```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### htop
@@ -154,31 +141,24 @@ Installation:
 
 Installation:  
 ```$ brew install htop```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### fzf
 > "Interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc." - *[fzf](https://github.com/junegunn/fzf)*
 
 Installation:  
-```$ brew install fzf```  
-
+```$ brew install fzf```   
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## CLI shortcuts & tricks
-
 ### Create directory and navigate
-```$ mkdir <name> && cd $_```
-
+```$ mkdir <name> && cd $_```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### Navigate to previous directory 
 ```$  cd -```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
-
 
 ### Run last command with sudo
 ```$  sudo !!```  
-
 <sup>[&uarr;](#table-of-contents)</sup>
