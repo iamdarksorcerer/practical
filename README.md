@@ -1,5 +1,3 @@
-# Practical Collection
-
 ## Table of Contents
 * Environment
     * [Homebrew](#homebrew)
