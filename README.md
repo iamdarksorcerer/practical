@@ -5,6 +5,9 @@
     * [Homebrew](#homebrew)
     * [Homebrew Cask](#homebrew-cask)
 * Terminal
+    * [iTerm2](#iterm2)
+    * [Fonts](#fonts)
+    * [iTerm Themes](#iterm2-themes)
     * [ZSH](#zsh)
     * [Oh-My-Zsh](#oh-my-zsh)
 * Text Editors
@@ -42,8 +45,26 @@ Installation:
 ```$ brew tap caskroom/cask```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
-
 ## Terminal
+### iTerm2
+> "iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.12 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted." - *[iTerm2](https://www.iterm2.com/)*
+
+Installation:  
+```$ brew cask install iterm2```  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### Fonts
+Installation:  
+```$ brew tap caskroom/fonts && brew cask install font-source-code-pro```  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### iTerm2 Themes
+Installation:  
+* Visit [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) and download themes folder or clone repository
+* Follow [installation](https://github.com/mbadolato/iTerm2-Color-Schemes#installation-instructions) instructions  
+
+<sup>[&uarr;](#table-of-contents)</sup>
+
 ### ZSH
 > "Zsh is a shell designed for interactive use, although it is also a powerful scripting language" - *[zsh](http://www.zsh.org)*
 * Installation:  
@@ -61,7 +82,6 @@ Installation:
 Installation:  
 ```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```  
 <sup>[&uarr;](#table-of-contents)</sup>
-
 
 ## Text Editors
 ### vim
