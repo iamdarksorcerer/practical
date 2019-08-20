@@ -21,7 +21,8 @@
 * CLI Commands
     * [tree](#tree)
     * [htop](#htop)
-    * [fzf](#fzf)  
+    * [fzf](#fzf)
+    * [jq](#jq)
 * CLI shortcuts & tricks
     * [Create directory and navigate](#create-directory-and-navigate)
     * [Navigate to previous directory](#navigate-to-previous-directory)
@@ -53,7 +54,8 @@ Installation:
 
 ### Fonts
 Installation:  
-```$ brew tap caskroom/fonts && brew cask install font-source-code-pro```  
+```$ brew tap caskroom/fonts```  
+```$ brew cask install font-source-code-pro font-roboto font-fira-code font-inconsolata font-droidsansmono-nerd-font font-firacode-nerd-font font-hermit-nerd-font  font-inconsolata-nerd-font font-liberationmono-nerd-font font-monofur-nerd-font font-mononoki-nerd-font font-mplus-nerd-font font-robotomono-nerd-font font-ubuntumono-nerd-font font-sourcecodepro-nerd-font font-inconsolata-nerd-font font-office-code-pro```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### iTerm2 Themes
@@ -161,17 +163,24 @@ Installation:
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### htop
-> "An interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses" - *[htop](https://hisham.hm/htop/)*
+> "An interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals)" - *[htop](https://hisham.hm/htop/)*
 
 Installation:  
 ```$ brew install htop```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### fzf
-> "Interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc." - *[fzf](https://github.com/junegunn/fzf)*
+> "Interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc" - *[fzf](https://github.com/junegunn/fzf)*
 
 Installation:  
 ```$ brew install fzf```   
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### jq
+> "jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text" - *[jq](https://stedolan.github.io/jq/)*
+
+Installation:  
+```$ brew install jq```   
 <sup>[&uarr;](#table-of-contents)</sup>
 
 
