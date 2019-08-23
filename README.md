@@ -88,7 +88,7 @@ Installation:
 In order to enable/disable oh-my-zsh plugins, open the `(~/.zshrc)` file and adjust following line:  
 ```plugins=([plugins])```  
 ##### zsh-syntax-highlighting
-> "This package provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors" - *[https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)*
+> "This package provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors" - *[https://github.com/zsh-users/zsh-syntax-highlighting](zsh-syntax-highlighting)*
 
 * Installation:  
 ```$ brew install zsh-syntax-highlighting```  
