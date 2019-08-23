@@ -8,6 +8,9 @@
     * [iTerm Themes](#iterm2-themes)
     * [ZSH](#zsh)
     * [Oh-My-Zsh](#oh-my-zsh)
+        * [Oh-My-Zsh plugins](#oh-my-zsh-plugins)
+            * [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+            * [z](#z)
 * Text Editors
     * [Vim](#vim)
     * [Visual Studio Code](#visual-studio-code)
@@ -71,8 +74,6 @@ Installation:
 ```$ brew install zsh```
 * Set as default shell:  
 ```$ sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh```
-* Plugins `(~/.zshrc)`:  
-```plugins=(git zsh-syntax-highlighting)```  
 
 <sup>[&uarr;](#table-of-contents)</sup>
 
@@ -81,6 +82,30 @@ Installation:
 
 Installation:  
 ```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+#### Oh-My-Zsh plugins
+Enable/disable oh-my-zsh plugins open `(~/.zshrc)` and adjust following line:  
+```plugins=(git zsh-syntax-highlighting)```  
+##### zsh-syntax-highlighting
+> "This package provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors" - *[https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)*
+
+* Installation:  
+```$ brew install zsh-syntax-highlighting```  
+OR  
+```$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
+* Activate the plugin in `~/.zshrc`:  
+```$ plugins=( [plugins...] zsh-syntax-highlighting)``` 
+Note: `zsh-syntax-highlighting` should be last plugin enabled  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+##### z
+> "Tracks most-used directories to make cd smarter" - *[z](https://github.com/rupa/z)*  
+
+Installation:   
+ ```$ brew install z```  
+Note: might require to add `[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh` to `~/.zshrc`
+
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## Text Editors
