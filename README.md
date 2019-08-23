@@ -8,9 +8,9 @@
     * [iTerm Themes](#iterm2-themes)
     * [ZSH](#zsh)
     * [Oh-My-Zsh](#oh-my-zsh)
-        * [Oh-My-Zsh plugins](#oh-my-zsh-plugins)
-            * [zsh-syntax-highlighting](#zsh-syntax-highlighting)
-            * [z](#z)
+    * [Oh-My-Zsh plugins](#oh-my-zsh-plugins)
+        * [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+        * [z](#z)
 * Text Editors
     * [Vim](#vim)
     * [Visual Studio Code](#visual-studio-code)
