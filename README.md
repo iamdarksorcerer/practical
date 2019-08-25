@@ -26,6 +26,7 @@
     * [htop](#htop)
     * [fzf](#fzf)
     * [jq](#jq)
+    * [bat](#bat)
 * CLI shortcuts & tricks
     * [Create directory and navigate](#create-directory-and-navigate)
     * [Navigate to previous directory](#navigate-to-previous-directory)
@@ -102,9 +103,15 @@ Note: `zsh-syntax-highlighting` should be last plugin enabled
 #### z
 > "Tracks most-used directories to make cd smarter" - *[z](https://github.com/rupa/z)*  
 
-Installation:   
+* Installation:   
  ```$ brew install z```  
-Note: might require to add `[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh` to `~/.zshrc`
+* Setup:  
+Add either:
+    * `[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh`   
+    OR 
+    * `. /usr/local/etc/profile.d/z.sh`  
+    
+    to your `~/.zshrc` 
 
 <sup>[&uarr;](#table-of-contents)</sup>
 
@@ -208,6 +215,12 @@ Installation:
 ```$ brew install jq```   
 <sup>[&uarr;](#table-of-contents)</sup>
 
+### bat
+> "A cat(1) clone with syntax highlighting and Git integration." - *[bat](https://github.com/sharkdp/bat)*
+
+Installation:  
+```$ brew install bat```  
+<sup>[&uarr;](#table-of-contents)</sup>
 
 ## CLI shortcuts & tricks
 ### Create directory and navigate
