@@ -209,7 +209,7 @@ whitespace." - *[python](https://www.python.org/)*
 
 Installation:  
 
-* python3:
+* python3:  
 ```$ brew install python```  
 * python2:  
 ```$ brew install python2```  
