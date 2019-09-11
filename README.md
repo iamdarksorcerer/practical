@@ -21,6 +21,8 @@
     * [NVM](#nvm)
     * [NodeJS](#nodejs)
     * [Docker](#docker)
+    * [Java (OpenJDK)](#java-openjdk)
+    * [Groovy (sdk)](#groovy-sdk)
 * CLI Commands
     * [tree](#tree)
     * [htop](#htop)
@@ -185,6 +187,21 @@ Installation:
 ```$ brew cask install docker```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
+### Java (OpenJDK)
+> "OpenJDK (Open Java Development Kit) is a free and open-source implementation of the Java Platform, Standard Edition (Java SE). It is the result of an effort Sun Microsystems began in 2006. The implementation is licensed under the GNU General Public License (GNU GPL) version 2 with a linking exception. Were it not for the GPL linking exception, components that linked to the Java class library would be subject to the terms of the GPL license. OpenJDK is the official reference implementation of Java SE since version 7" - *[Open JDK @ wiki](https://en.wikipedia.org/wiki/OpenJDK)*  
+
+Installation:  
+```$ brew cask install adoptopenjdk```  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### Groovy (SDK)
+> "Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming." - *[Groovy Lang](http://groovy-lang.org)*  
+
+Installation:  
+* ```$ brew install groovysdk```  
+* OPTIONAL: In order to set `GROOVY_HOME` environment variable, add ```export GROOVY_HOME="/usr/local/opt/groovysdk/libexec"``` to your `.zshrc` / `.bashrc`
+
+<sup>[&uarr;](#table-of-contents)</sup>
 
 ## CLI Commands
 ### tree
