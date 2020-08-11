@@ -13,7 +13,8 @@
         * [zsh-syntax-highlighting](#zsh-syntax-highlighting)
         * [z](#z)
 * Text Editors
-    * [Vim](#vim)
+    * [vim](#vim)
+    * [neovim](#neovim/nvim)
     * [Visual Studio Code](#visual-studio-code)
 * Programming
     * [Git](#git)
@@ -30,6 +31,10 @@
     * [fzf](#fzf)
     * [jq](#jq)
     * [bat](#bat)
+    * [axe](#axe)
+    * [delta](#delta)
+    * [httpie](#httpie)
+    * [httpstat](#httpstat)
 * CLI shortcuts & tricks
     * [Create directory and navigate](#create-directory-and-navigate)
     * [Navigate to previous directory](#navigate-to-previous-directory)
@@ -81,6 +86,15 @@ Installation:
 ```font-mononoki-nerd-font font-mplus-nerd-font font-robotomono-nerd-font\```  
 ```font-ubuntumono-nerd-font font-sourcecodepro-nerd-font font-inconsolata-nerd-font\```  
 ```font-office-code-pro```  
+
+Additional:
+*[JetBrains Mono font](https://github.com/JetBrains/JetBrainsMono)*
+
+```bash
+$ brew tap homebrew/cask-fonts
+$ brew cask install font-jetbrains-mono
+```
+
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### iTerm2 Themes
@@ -162,6 +176,23 @@ and with Apple OS X." - *[vim](https://www.vim.org/)*
 
 Installation:  
 ```$ brew install vim```  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### neovim/nvim
+
+> "Hyperextensible Vim-based text editor" - *[neovim](https://github.com/neovim/neovim)*
+
+Installation:  
+
+```$ brew install neovim```
+
+Additional:  
+
+```bash
+alias vim="nvim"
+alias vi="nvim"
+```
+
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ### Visual Studio Code
@@ -328,6 +359,73 @@ Installation:
 
 Installation:  
 ```$ brew install bat```  
+
+Additional:  
+
+```bash
+alias cat='bat'
+```
+
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### exa
+
+> "exa is a replacement for ls written in Rust." - *[exa](https://github.com/ogham/exa)*  
+
+Installation:  
+```$ brew install exa```  
+
+Additional:  
+
+```bash
+alias la='ls -alh --git'
+alias ls='exa'
+```
+
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### delta
+
+> "A viewer for git and diff output" - *[delta](https://github.com/dandavison/delta)*
+
+Installation:  
+```brew install git-delta```  
+
+Additional:  
+Add to your `~/.gitconfig`:
+
+```gitconfig
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    features = side-by-side line-numbers decorations
+    syntax-theme = Monokai Extended
+
+
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
+```
+
+### httpie
+
+> "HTTPie: a CLI, cURL-like tool for humans" - *[httpie](https://github.com/jakubroztocil/httpie)*
+
+Installation:  
+```$ brew install httpie```  
+<sup>[&uarr;](#table-of-contents)</sup>
+
+### httpstat
+
+> "" - *[]()*  
+
+Installation:  
+```$ brew install httpstat```  
 <sup>[&uarr;](#table-of-contents)</sup>
 
 ## CLI shortcuts & tricks
