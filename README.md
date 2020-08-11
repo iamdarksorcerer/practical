@@ -422,7 +422,7 @@ Installation:
 
 ### httpstat
 
-> "" - *[]()*  
+> "httpstat visualizes curl statistics. It tells you where did your request spend time." - *[httpstat](https://github.com/reorx/httpstat)*  
 
 Installation:  
 ```$ brew install httpstat```  
